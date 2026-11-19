@@ -1141,6 +1141,59 @@ git remote add origin https://github.com/YOUR_USERNAME/Gradledemo.git
 # 20. Push to GitHub
 git push -u origin master
 Since you have already completed the previous experiment, this question is the same experiment with the procedure written as a task statement. You can use your existing work directly.
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Website!</h1>
+
+    <p>This website is hosted using GitHub Pages.</p>
+
+    <button onclick="alert('Website is Alive!')">
+        Click Here
+    </button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
 Ex. No. 8 — Install Ansible and Configure Ansible Roles and Write Playbooks
 Aim:
 To install Ansible on a Linux system, create three Ansible roles named prerequisites, PostgreSQL, and apache to install Git, PostgreSQL, and Apache respectively, configure the tasks, execute them using a stack.yml playbook on localhost, and verify successful installation.
