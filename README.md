@@ -1361,3 +1361,15 @@ The welcome page should be displayed.
 Result
 Thus, the Ansible playbook was successfully created and executed to install Apache, start and enable the web server, deploy an HTML page containing a heading and description, and verify its accessibility through http://localhost.
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+</head>
+<body>
+
+    <h2>Welcome to My Simple Website</h2>
+
+</body>
+</html>
